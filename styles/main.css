@@ -2,38 +2,66 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  border: 2px solid black;
 }
 
 body{
   font-family:'Roboto';
+  color: rgb(56,50,50);
 }
 
 h1,h2,h3,h4 {
   font-family:'Roboto';
   text-align:center;
-  margin:10%;
-  padding:5%;
 }
 
+section, header {
+  padding: 5%;
+}
 
-header {
-background-image: url(/styles/images/palm-background.png);
+h2 {
+  color:white;
+}
+
+h4 {
+  margin-top:10%;
+  margin-bottom:10%;
+}
+
+p {
+  padding: 5%;
+  text-align:center;
 }
 
 .banner {
-  background-image: url('images/assets/leaves.jpg')
+  background-image: url('images/assets/leaves.jpg');
+  min-height: 100vh;
+  text-align: center;
+}
+
+.benefits {
+  background-color: white;
+  padding: 0;
+}
+
+.benefits p{
+  text-align: center;
+}
+
+.benefits h3{
+  margin-top: 15%;
 }
 
 .dog {
   background-image: url('images/assets/dog.jpg');
   background-size: cover;
   background-position: center;
+  min-height: 300px;
 }
 
 .bed {
   background-image:url('images/assets/bed.jpg');
   background-size: cover;
+  min-height: 300px;
 }
 
 .ad {
@@ -43,4 +71,22 @@ background-image: url(/styles/images/palm-background.png);
 
 .grid{
   background-color:grey;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.mustard-text{
+  color: rgb(255,212,0);
+}
+
+.white-text{
+  color: white;
+}
+
+.grid-middle-center-banner {
+  text-align: center;
 }
