@@ -53,10 +53,22 @@ footer form * {
   width: 100%;
   margin:10px 0 10px 0;
   padding:12px 8px;
+  font-family: 'Roboto';
 }
 
 footer button{
   border-radius: 3px;
+  background-color: #ffbe00;
+  color: white;
+}
+
+footer textarea{
+  min-height: 200px;
+}
+
+footer button{
+  border-width:0;
+  font-weight: bold;
 }
 
 .banner {
@@ -116,4 +128,8 @@ footer button{
 
 .grid-middle-center-banner {
   text-align: center;
+}
+
+.end-text{
+  color:white;
 }
