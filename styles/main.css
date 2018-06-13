@@ -4,6 +4,10 @@
   box-sizing:border-box;
 }
 
+.padding{
+  padding: 5%;
+}
+
 body{
   font-family:'Roboto';
   color: rgb(56,50,50);
@@ -30,6 +34,29 @@ h4 {
 p {
   padding: 5%;
   text-align:center;
+}
+
+form {
+  padding: 5%;
+  width:100%;
+}
+
+input{
+
+}
+
+button{
+
+}
+
+footer form * {
+  width: 100%;
+  margin:10px 0 10px 0;
+  padding:12px 8px;
+}
+
+footer button{
+  border-radius: 3px;
 }
 
 .banner {
@@ -70,7 +97,7 @@ p {
 }
 
 .grid{
-  background-color:grey;
+  background-color:#034056;
 }
 
 .quote {
