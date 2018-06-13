@@ -4,3 +4,43 @@
   box-sizing:border-box;
   border: 2px solid black;
 }
+
+body{
+  font-family:'Roboto';
+}
+
+h1,h2,h3,h4 {
+  font-family:'Roboto';
+  text-align:center;
+  margin:10%;
+  padding:5%;
+}
+
+
+header {
+background-image: url(/styles/images/palm-background.png);
+}
+
+.banner {
+  background-image: url('images/assets/leaves.jpg')
+}
+
+.dog {
+  background-image: url('images/assets/dog.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bed {
+  background-image:url('images/assets/bed.jpg');
+  background-size: cover;
+}
+
+.ad {
+    background-image:url('images/assets/pencil.jpg');
+    background-size: cover;
+}
+
+.grid{
+  background-color:grey;
+}
